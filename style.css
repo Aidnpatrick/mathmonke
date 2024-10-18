@@ -1,0 +1,423 @@
+body {
+  margin: 0;
+
+  background-color: #121212;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.nav-block {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  color: white;
+  font-size: 18px;
+  height: 100vh;
+  background-color: #292929;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-heading {
+  margin: 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-size: 30px;
+  color: #4294ff;
+  padding: 8px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.logo-heading:hover {
+  background-color: #404040;
+}
+
+.link {
+  border-radius: 5px;
+  padding: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #404040;
+}
+
+
+.flex-column {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  background-color: #121212;
+}
+
+.flex-column-general {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  
+}
+.flex-column-flex {
+  width: 25%;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  
+}
+
+.flex-column-block {
+  width: 25%;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+
+}
+@media(max-width: 1400px) {
+
+  .flex-column-block {
+    width: 70%;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+
+  }
+}
+.flex-column-center {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.heading-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  background-color: #121212;
+  border-bottom: #333333 1px solid;
+}
+
+.heading-block h1 {
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.sub-heading {
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 70%;
+  background-color: #353535;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #72aefd;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+.text {
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.coating {
+  width: 65%;
+  padding-block: 1px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+
+@media(max-width: 1400px) {
+  .coating {
+    width: 85%;
+  }  
+}
+
+
+@media(max-width: 400px) {
+  .coating {
+    flex-direction: column;
+  }
+}
+ul {
+  padding-left: 20px;
+}
+
+li {
+  
+
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  color: white;  
+  list-style-position: outside;
+}
+
+.sub-div-hidden {
+  width: 90%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  
+}
+
+.row-block {
+  padding: 10px;
+  height: 60px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: #242424;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+@media(max-width: 1400px) {
+  .row-block {
+    height: 120px;
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+
+.flex-row-align {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  
+}
+
+@media(max-width: 800px) {
+  .flex-row-align {
+    flex-direction: column;
+  }  
+}
+
+.flex-row {
+
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.get-started,
+.go-to-class {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 200px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.get-started {
+  background-color: #4294ff;
+  color: white;
+}
+
+.get-started:hover,
+.go-to-class:hover {
+  background-color: #404040;
+}
+
+.go-to-class {
+  background-color: white;
+  color: #4294ff;
+}
+
+.row-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 140px;
+  
+  margin: 10px;
+}
+
+.fake-images {
+  font-size: 120px;
+}
+
+
+footer {
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #000714;
+  padding-block: 50px;
+  text-align: center;
+}
+
+.flex-row-class {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+@media(max-width: 1400px) {
+  .flex-row-class {
+    flex-direction: column;
+  }
+}
+
+.column-block {
+  height: 250px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+@media(max-width: 1400px) {
+  .column-block {
+    
+    height: 350px;
+    width: 50%;
+  }
+}
+
+
+.class-home-page {
+  height: 520px;
+  width: 70%;
+  border-radius: 8px;
+  background-color: #292929;
+  margin: 10px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+
+.sub-div {
+  margin: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  border-radius: 8px;
+  height: 93%;
+  width: 90%;
+  background-color: #303030;
+}
+
+
+@media(max-width: 1000px) {
+  .sub-div {
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+  }
+}
+
+.lesson-seletion {
+  background-color: #292929;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.start-class-portal {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 200px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 20px;
+  transition: background-color 0.3s ease;
+  background-color: #00a800;
+  color: white;
+}
+/*
+
+*/
+.start-class-portal:hover {
+
+  background-color: #00e000;
+}
+
+.start-class-portal:active {
+  
+  background-color: #47ff47;
+}
+
+@media(max-width: 800px) {
+  .start-class-portal {
+    width: 80%;
+  }  
+}
+
+.other-lesson-sub {
+  
+  border-radius: 8px;
+  height: 75%;
+  width: 20%;
+  background-color: #303030;
+}
