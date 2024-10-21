@@ -127,7 +127,7 @@ body {
   width: 70%;
   background-color: #353535;
   font-family: 'Trebuchet MS', sans-serif;
-  color: #72aefd;
+  color: #4294ff;
   font-size: 25px;
   margin-top: 20px;
 }
@@ -216,11 +216,10 @@ li {
 
 .flex-row-align {
   justify-content: center;
+  position: relative;
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  text-align: center;
   
 }
 
@@ -314,7 +313,6 @@ footer {
 .column-block {
   height: 250px;
   border-radius: 8px;
-  justify-content: center;
   align-items: center;
   width: 95%;
   background-color: #262626;
@@ -369,12 +367,11 @@ footer {
 .lesson-seletion {
   background-color: #292929;
   margin: 10px;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 70%;
   border-radius: 8px;
 }
 
@@ -382,8 +379,8 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 60px;
-  width: 200px;
+  height: 50px;
+  width: 150px;
   font-size: 18px;
   border: none;
   border-radius: 8px;
@@ -420,4 +417,41 @@ footer {
   height: 75%;
   width: 20%;
   background-color: #303030;
+}
+
+
+
+
+.invisible-sub-div {
+  width: 70%;
+  height: 70%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.non-margin-text {
+  font-size: 18px;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.right-text {
+  font-weight: bold;
+  border-radius: 8px;
+  bottom: 3px;
+  padding: 10px;
+  background-color:#009107;
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  font-size: 18px;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.right-text:hover {
+  
+  background-color: #a3a3a3;
 }
