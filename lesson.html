@@ -11,11 +11,10 @@
   <style>
     .coating {
       width: 65%;
-      height: 45px;
+      height: 41px;
       padding-block: 1px;
       background-color: #1f1f1f;
       border-radius: 8px;
-      justify-content: start;
     }
 
 
@@ -36,24 +35,21 @@
       font-family: Arial, Helvetica, sans-serif;
       color: rgb(129, 188, 255);
       font-weight: bold;
-      top: -5px;
       position: absolute;  
       left: 70%;
       margin: 10px;
       text-align: center;
-      width: 50px;
+      width: 15%;
       padding: 8px;
       border-radius: 8px;
-      
+      background-color: #353535;
     }  
     .text-stats {
-      top: 2%;
       font-size: 18px;
       color: white;
       font-family: Arial, Helvetica, sans-serif;
       margin: 10px;
       text-align: center;
-      position: relative;
       right: 10%;
     }
     .coating-lesson {
@@ -99,10 +95,10 @@
               <p class="sub-heading"><b>Unit - Algebra I</b></p>
               <br>
               <p class="text">In this lesson, you will be able to learn the basics of <b>Algebra</b>.</p>
-
+              <p class="text"><b>In this lesson:</b></p>
               <br>
               <div class="flex-row-align">
-
+                
                 <div class="coating-lesson">
                   <div class="flex-row-align">
                     <p class="text"><b>Variables</b></p>
@@ -129,14 +125,14 @@
             <p class="sub-heading"><b>Statistics:</b></p>
 
             <div class="coating">
-              <div class="flex-row-align">
-                <p class="text-stats"><b>Bananas</b></p>
+              <div class="flex-row-align-coating">
+                <p class="text-stats"><b>Bananas 🍌</b></p>
                 <p class="stats" id ="bananas">0</p>
               </div>
             </div>
             <br>
             <div class="coating">
-              <div class="flex-row-align">
+              <div class="flex-row-align-coating">
                 <p class="text-stats"><b>Lessons finished</b></p>
                 <p class="stats" id="lessonsCompleted">0</p>
               </div>
@@ -147,12 +143,21 @@
           <div class="column-block">
             <p class="sub-heading"><b>Daily Quests</b></p>
             <div class="coating">
-              <div class="flex-row-align">
+              <div class="flex-row-align-coating">
                 <p class="text-stats"><b>Finish <u>3</u> lessons</b></p>
                 <p class="stats" id="quests">0</p>
               </div>
             </div>
-
+            <br>
+            <div class="coating">
+              <div class="flex-row-align-coating">
+                <p class="text-stats"><b>Collect <u>10</u> 🍌's</b></p>
+                <p class="stats" id="quests">0</p>
+              </div>
+            </div>
+            <br>
+            <p class="text"><b>Note⚠️:</b></p>
+            <p class="text">The quest system does't work right now. stay tuned for it to work!</p>
           </div>
           
         </div>
