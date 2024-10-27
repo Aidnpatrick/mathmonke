@@ -24,8 +24,17 @@ body {
   z-index: 1000;
 }
 
+@media(max-width: 600px) {
+  .nav-block {
+    width: 140px;
+  }
+  .link {
+    font-size: 15px;
+  }
+
+}
+
 .logo-heading {
-  margin: 5px;
   border-radius: 8px;
   transition: background-color 0.3s ease;
   text-decoration: none;
@@ -34,10 +43,16 @@ body {
   padding: 8px;
   font-family: 'Trebuchet MS', sans-serif;
 }
+@media(max-width: 600px) {
+  .logo-heading {
+    font-size: 20px;
+  }
+}
 
 .logo-heading:hover {
   background-color: #404040;
 }
+
 
 .link {
   border-radius: 5px;
@@ -125,9 +140,9 @@ body {
   border-radius: 8px;
   text-align: center;
   width: 70%;
-  background-color: #353535;
+  background-color: #3f3f3f;
   font-family: 'Trebuchet MS', sans-serif;
-  color: #4294ff;
+  color: #5ba2ff;
   font-size: 25px;
   margin-top: 20px;
 }
@@ -311,6 +326,19 @@ footer {
   text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .flex-row-class {
   align-items: center;
   justify-content: center;
@@ -326,11 +354,12 @@ footer {
 }
 
 .column-block {
-  height: 250px;
+  height: 350px;
   border-radius: 8px;
   align-items: center;
   width: 95%;
-  background-color: #262626;
+  
+  background-color: rgb(29, 29, 29);
   display: flex;
   flex-direction: column;
   margin: 10px;
@@ -346,14 +375,15 @@ footer {
 
 
 .class-home-page {
-  height: 520px;
+  height: 720px;
   width: 70%;
   border-radius: 8px;
-  background-color: #292929;
+  background-color: rgb(29, 29, 29);
   margin: 10px;
   align-items: center;
   flex-direction: column;
   display: flex;
+
 }
 
 
@@ -380,7 +410,8 @@ footer {
 }
 
 .lesson-seletion {
-  background-color: #292929;
+  
+  background-color: rgb(29, 29, 29);
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -404,6 +435,7 @@ footer {
   text-decoration: none;
   margin: 20px;
   transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
   background-color: #00a800;
   color: white;
 }
@@ -411,7 +443,7 @@ footer {
 
 */
 .start-class-portal:hover {
-
+  transform: scale(1.15);
   background-color: #00e000;
 }
 
@@ -433,7 +465,6 @@ footer {
   width: 20%;
   background-color: #303030;
 }
-
 
 
 
@@ -485,4 +516,20 @@ footer {
 .right-text:hover {
   
   background-color: #a3a3a3;
+}
+
+
+
+
+
+
+
+
+
+
+.sub-heading-about {
+  font-size: 30px;
+  color: white; 
+  font-family: 'Trebuchet MS', sans-serif;
+
 }
