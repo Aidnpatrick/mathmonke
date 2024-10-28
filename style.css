@@ -136,17 +136,22 @@ body {
 }
 
 .sub-heading {
+  width: 40%;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
-  width: 70%;
   background-color: #3f3f3f;
   font-family: 'Trebuchet MS', sans-serif;
   color: #5ba2ff;
   font-size: 25px;
   margin-top: 20px;
 }
+@media(max-width: 2000px) {
+  .sub-heading {
 
+    width: 70%;
+  }
+}
 
 .text {
   font-size: 18px;
